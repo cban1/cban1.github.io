@@ -10,14 +10,13 @@
     while (testV < 3) {
         if (!pass1) 
             history.go(-1);
-        if (pass1.toLowerCase() == "letmein") {
-            alert('You Got it Right!');
+        if (pass1.toLowerCase() == "sixthblockenglish") {
             window.open('protectpage.html');
         break;
     } 
     testV+=1;
     var pass1 = 
-    prompt('Access Denied - Password Incorrect, Please Try Again.','Password');
+    prompt('Denied.','Password');
     }
     if (pass1.toLowerCase()!="password" & testV ==3) 
     history.go(-1);
@@ -29,7 +28,6 @@
 <input type="button" value="Enter Protected Area" onClick="passWord()">
 </FORM>
 </CENTER>
+    <p> Please input your login credentials above. </p>
     
-  <p> Welcome to my website. </p>
-
 </body>
