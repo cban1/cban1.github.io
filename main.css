@@ -53,9 +53,7 @@ samp {
 
         @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
         @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
-<style>
-@import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
-</style>
+        @import url('https://fonts.googleapis.com/css?family=Inconsolata');
         a:link{
             color: cornflowerblue;
             text-decoration: none
